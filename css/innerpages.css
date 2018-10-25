@@ -1,0 +1,99 @@
+/*====================================================*/
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Aimerr Solutions
+
+This file contains the styling for the inner pages.
+---------------------------------------------------- */
+/*=====================================================================
+
+@Author: Aimerr Solutions
+@Developed: Aimerr Solutions
+
+@Default Styles
+=====================================================================*/
+
+/*------Accordion menu----*/
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #16629d;
+	color:#fff;
+}
+
+.accordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/*------------------Accordion menu------*/
+
+#breadcrumb-b{
+	font-size: 20px;
+	color:#D4D8D3;
+}
+#breadcrumb-inner{
+		color:#fff;
+}
+.feature-abt{
+	/*background-color:#52BE80;*/
+	background:url("../image/software/banner.jpg") no-repeat scroll center 0
+}
+.feature-abt h2, .feature-abt p{
+	color:#fff;
+}
+@media (max-width: 991px){
+#banner-title {
+	padding-top:104px;
+	}
+}
+.service-banner{
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.service-title{
+	padding-bottom:5px;
+	text-align:center;
+}
+.service-subtitle{
+	padding-bottom:32px;
+	text-align:center;
+}
+#service-main-img{
+	padding-top:40px;
+}
+#acdn-menu-sec{
+	margin-top:100px;
+}
+#acdn-title{
+	margin-bottom:50px;
+}
+#footer-bottom{
+	background-repeat: no-repeat;
+	background-size:cover;
+}
